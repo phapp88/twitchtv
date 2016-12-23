@@ -1,0 +1,107 @@
+import {
+  url(https://fonts.googleapis.com/css?family=Exo+2);
+}
+
+body {
+  background-color: rgba(0, 0, 255, 0.85);
+  font-family: "Exo 2";
+}
+
+.container {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  width: 350px;
+}
+
+.col {
+  padding: 0;
+}
+
+.status {
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+}
+
+#all div, #online div {
+  border-right: 1px solid white;
+}
+
+.notch {
+  position: absolute;
+  top: 50px;
+  left: 33.75px;
+  margin: 0;
+  border-top: 10px solid blue;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-bottom: 0;
+}
+
+.navbar-form {
+  margin: 15px 0 15px 0;
+}
+
+#iconButton {
+  background-color: white;
+  border-color: #ccc;
+  border-right: none;
+  width: 25px;
+}
+
+.glyphicon {
+  position: relative;
+  right: 5px;
+}
+
+.form-control {
+  border-left: none;
+  box-shadow: none;
+  padding-left: 5px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color:#cccccc;
+}
+
+.streamerRow {  
+  padding: 5px 8px 5px 0;
+}
+
+.logo {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: rgb(200, 200, 200);
+}
+
+.info {
+  position: relative;
+  left: 10px;
+}
+
+.info a {
+  color: rgba(0, 0, 255, 0.85);
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.info p {
+  font-size: 12px;
+  position: absolute;
+  bottom: -2px;
+}
+
+.streamerRow .fa {
+  color: red;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.streamerRow .fa-check {
+  color: rgb(0, 190, 0);
+}
